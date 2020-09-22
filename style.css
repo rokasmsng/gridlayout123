@@ -1,0 +1,68 @@
+body {
+    background-color: green;
+    display: grid;
+    grid-gap: 1em;
+
+}
+header {
+    background-color: red;
+}
+
+.grid {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    grid-gap: 1em;
+    height: 400px;
+
+
+}
+
+.kairysGrid {
+    background-color: orange;
+
+}
+.desinioGrid {
+    background-color: purple;
+
+
+}
+.beveikFooter {
+    background-color: aqua;
+    display: grid;
+
+
+}
+footer {
+    background-color: blue;
+}
+#kairioVirsus {
+    background-color: blue;
+    grid-column: 1/1;
+    grid-row: 1/3;
+
+}
+#kairioApacia {
+    background-color: yellow;
+    grid-column: 1/1;
+    grid-row: 3/12;
+}
+#desinioVirsus {
+    background-color: salmon;
+    grid-column: 2/2;
+    grid-row: 1/9;
+}
+#desinioApacia {
+    background-color: darkgrey;
+    grid-column: 2/2;
+    grid-row: 9/12;
+}
+#apatinioKairys {
+    background-color: purple;
+    grid-column: 1/4;
+    grid-row: 1/1;
+}
+#apatinioDesinys {
+    background-color: darkred;
+    grid-column: 4/6;
+}
